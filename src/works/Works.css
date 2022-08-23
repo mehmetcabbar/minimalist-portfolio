@@ -1,0 +1,235 @@
+.worksContainer {
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-x: hidden;
+}
+
+.worksBox {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.BoxForQuit {
+    display: flex;
+    flex: 2;
+    background-color: #f1f1f1;
+    padding: 30px 100px 0px 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quitImage {
+    width: 400px;
+}
+
+.worksBoxLink {
+    text-decoration: none;
+    color: #909090;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.worksTitle {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ReactBox {
+    display: flex;
+    margin-left: 14px;
+    flex: 1;
+    background-color: #f1f1f1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.worksBoxSecond {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.karincaBox {
+    display: flex;
+    flex: 1;
+    background-color: #f1f1f1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.lastLink {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.karincaImage {
+    width: 400px;
+    height: auto;
+    /* padding: 80px 80px 20px 80px */
+}
+
+.karincaTitle {
+    color: #909090;
+    font-weight: 400;
+    padding-top: 24px;
+    position: absolute;
+    bottom: 14px;
+    text-align: center;
+
+}
+
+.quideTitle {
+    color: #909090;
+    font-weight: 400;
+    padding-top: 24px;
+    position: absolute;
+    bottom: 14px;
+}
+
+
+.worksBoxFour {
+    display: flex;
+    margin-left: 14px;
+    flex: 2;
+    background-color: #f1f1f1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px 24px 50px;
+    position: relative;
+}
+
+.quideImage {
+    width: 480px;
+    height: auto;
+    padding: 14px 14px 50px 14px;
+}
+
+.react-logo {
+    height: 30px;
+    pointer-events: none;
+}
+
+.ReactText {
+    font-size: 14px;
+    color: #909090;
+    margin-top: 14px;
+}
+
+.lastBoxforReact {
+    padding-top: 80px;
+    color: #909090;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .react-logo {
+        animation: App-logo-spin infinite 10s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media(max-width:1100px) {
+    .worksBox {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .BoxForQuit {
+        display: flex;
+        flex: 1;
+        background-color: #f1f1f1;
+        padding: 5px 15px 0px 15px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .quitImage {
+        width: 300px;
+        height: auto;
+    }
+
+    .ReactBox {
+        display: flex;
+        margin-top: 14px;
+        margin-left: 0px;
+        padding-top: 24px;
+        padding-bottom: 14px;
+        flex: 1;
+        background-color: #f1f1f1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .worksBoxSecond {
+        margin-top: 14px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .karincaBox {
+        display: flex;
+        flex: 1;
+        background-color: #f1f1f1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 24px;
+    }
+
+    .worksBoxFour {
+        display: flex;
+        margin-left: 0px;
+        margin-top: 14px;
+        flex: 1;
+        background-color: #f1f1f1;
+        padding: 5px 15px 0px 15px;
+
+    }
+
+    .karincaTitle {
+        bottom: 0px;
+    }
+
+    .quideTitle {
+        bottom: 0px;
+    }
+
+    .karincaImage {
+        width: 300px;
+        height: auto;
+        padding: 0px 0px 60px 0px
+    }
+
+    .quideImage {
+        width: 300px;
+        height: auto;
+        padding-bottom: 60px
+    }
+}

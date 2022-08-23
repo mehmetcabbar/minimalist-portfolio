@@ -1,0 +1,122 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    min-height: 74px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.navbar-brand {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.39px;
+    color: #909090;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.navbar-brand:hover {
+    color: black;
+    transition: 0.8s;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    color: #909090;
+    text-decoration: none;
+    transition: 0.8s ease;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.39px;
+
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #909090;
+    border-radius: 5px;
+}
+
+@media(max-width:1100px) {
+    /* .navbar {
+        padding: 0 24px;
+    } */
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+        background-color: black;
+
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+        background-color: black;
+
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -110%;
+        top: 50px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        transition: 0.3s;
+        justify-content: left;
+        align-items: flex-start;
+        z-index: 5000;
+
+    }
+
+    .navLink {
+        padding-left: 5%;
+    }
+
+    .nav-item {
+        margin: 14px 0px;
+    }
+
+    .nav-menu.active {
+        left: 0;
+        position: absolute;
+        transition: 0.3s;
+    }
+}

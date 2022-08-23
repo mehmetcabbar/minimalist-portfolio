@@ -1,0 +1,67 @@
+.helloContainer {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.helloTitle {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.67px;
+    text-align: center;
+    color: #909090;
+}
+
+.helloText {
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.39px;
+    text-align: justify;
+    color: #909090;
+    padding-left: 15%;
+    padding-right: 15%
+}
+
+.helloFollow {
+    margin-top: 36px;
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.39px;
+    text-align: justify;
+    color: #919090;
+}
+
+.helloSocialIcon {
+    color: #909090;
+    padding-left: 12px;
+    transition: 0.8s;
+}
+
+.helloSocialIcon:hover {
+    color: black;
+    transition: 0.8s;
+
+}
+
+@media(max-width:1100px) {
+    .helloText {
+        padding-left: 0%;
+        padding-right: 0%
+    }
+}

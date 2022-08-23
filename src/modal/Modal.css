@@ -1,0 +1,115 @@
+.Modal {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    right: 30%;
+    bottom: 8%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f1f1f1;
+}
+
+.quitModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px
+}
+
+.modalTitle {
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.4px;
+    color: #727171;
+    margin-top: 30px;
+}
+
+.modalSecondTitle {
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    color: #727171;
+}
+
+.modalContent {
+    margin-top: -15px;
+    color: #909090
+}
+
+.modalLink {
+    text-decoration: none;
+    color: #909090
+}
+
+.modalButton {
+    padding: 14px 24px;
+    border-radius: 20px;
+    background-color: white;
+    color: #909090;
+    margin-top: 14px;
+    border: solid 1px rgba(151, 151, 151, 0.5);
+    font-weight: 500;
+    font-family: Jost;
+    transition: 0.5s;
+}
+
+.modalButton:hover {
+    padding: 14px 24px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    margin-top: 14px;
+    border: solid 1px rgba(151, 151, 151, 0.5);
+    font-weight: 500;
+    font-family: Jost;
+    transition: 0.5s;
+}
+
+.ModalquideImage {
+    width: 60%;
+    height: auto;
+}
+
+@media(max-width:1100px) {
+    .Modal {
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        background-color: white;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .Overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #f1f1f1;
+        overflow: scroll;
+    }
+
+    .quitModal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 14px;
+    }
+}
