@@ -12,13 +12,13 @@ function Hello() {
             </div>
             <div className='helloFollow'>
                 Follow me:
-                <a target='_blank' href='https://github.com/mehmetcabbar' className='helloSocialIcon'>
+                <a target='_blank' rel="noreferrer" href='https://github.com/mehmetcabbar' className='helloSocialIcon'>
                     <ion-icon name="logo-github"></ion-icon>
                 </a>
-                <a target='_blank' href='https://www.linkedin.com/in/mehmet-cabbar-87a884143/' className='helloSocialIcon'>
+                <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/mehmet-cabbar-87a884143/' className='helloSocialIcon'>
                     <ion-icon name="logo-linkedin"></ion-icon>
                 </a>
-                <a target='_blank' href='https://www.instagram.com/aboutpersonalstuff/' className='helloSocialIcon'>
+                <a target='_blank' rel="noreferrer" href='https://www.instagram.com/aboutpersonalstuff/' className='helloSocialIcon'>
                     <ion-icon name="logo-instagram"></ion-icon>
                 </a>
             </div>

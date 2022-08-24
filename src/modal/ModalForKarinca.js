@@ -27,10 +27,8 @@ function ModalForKarinca({ onRequestClose, isOpen, isClose }) {
                     </h5>
                     <p className='modalContent'>
                         Platform: IOS & Android <br />
-                        Code language: React Native / Year: 2022 <br />
+                        Code language: React Native / Year: 2021 <br />
                         Others: AWS, Mongo, Firebase, Redux, Redux - Thunk etc. <br />
-                        Services language: Turkish <br />
-                        Design: Sketch, Illustrator, Zeplin <br />
                         Coding percentage: 30% <br />
                         Download / Visit: <a className='modalLink' href='https://karincahazirlik.com/' rel='noreferrer' target='_blank'>www.karincahazirlik.com</a>
                     </p>

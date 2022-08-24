@@ -31,8 +31,6 @@ function ModalForQuit({ onRequestClose, isOpen, isClose }) {
                             Platform: IOS & Android <br />
                             Code language: React Native / Year: 2022 <br />
                             Others: Firebase Auth, Redux, Redux - Persist, Redux - Thunk <br />
-                            Services language: English and Turkish <br />
-                            Design: Sketch, Zeplin <br />
                             Coding percentage: 100% <br />
                             Download / Visit: <a className='modalLink' href='https://quitbuddy.app/' rel='noreferrer' target='_blank'>www.quitbuddy.app</a>
                         </p>

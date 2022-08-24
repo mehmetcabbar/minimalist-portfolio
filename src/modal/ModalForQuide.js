@@ -30,8 +30,6 @@ function ModalForQuide({ onRequestClose, isOpen, isClose }) {
                         Platform: IOS & Android <br />
                         Code language: React Native / Year: 2020 <br />
                         Others: AWS, Mongo, Firebase, Redux <br />
-                        Services language: Turkish <br />
-                        Design: Sketch, Illustrator, Zeplin <br />
                         Coding percentage: 10% <br />
                         See how is it work: <a className='modalLink' href='https://www.youtube.com/watch?v=RCFOpEZ5vP4' rel='noreferrer' target='_blank'>Go Youtube</a>
                     </p>
