@@ -6,7 +6,7 @@ function Footer() {
         <div className='footerWrapper'>
             <p>
                 No need copyright!  Have a good day! <br />
-                React Native  ·  React Js  ·  JavaScript    ·  Redux  ·  Context API  ·   GIT  ·  Wordpress  ·  HTML5  ·  CSS  ·  Firebase  ·  Illustrator  ·  Photoshop  ·  Zeplin
+                React Native  ·  React Js  ·  JavaScript  ·  Node JS  ·   Next Js  ·  Mongo  ·  Redux  ·  Context API  ·   GIT  ·  Wordpress  ·  HTML5  ·  CSS  ·  Firebase  ·  Illustrator  ·  Photoshop  ·  Zeplin
             </p>
         </div>
     )

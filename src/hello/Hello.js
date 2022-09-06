@@ -7,7 +7,8 @@ function Hello() {
             <h1 className='helloTitle'>HELLO!  - I AM MEHMET</h1>
             <div className='helloText'>
                 <p>
-                    I am happy to see you here. I'm a front-end developer and a former product designer. I love developing mobile apps for cross platforms via react native. This is an excellent way to manage time and limited resources. I take care to rediscover the opportunities created by technology and to be a part of these solutions via some projects as a developer. Okay, it's enough to talk, let's see some works!
+                    I am happy to see you here. I'm a front-end developer and a former product designer. I love developing mobile apps and web apps. I mostly prefer to use libraries and languages such as react native, react, node js, javascript, html5, css etc. I'm currently trying to develop close relationships with nextjs, mongo, mongoose RestAPI and API's.
+                    Okay, it's enough to talk, let's see some works!
                 </p>
             </div>
             <div className='helloFollow'>
